@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8fdcff"/>
+      <stop offset="1" stop-color="#d9f5ff"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#35c2e6"/>
+      <stop offset="1" stop-color="#1b98d1"/>
+    </linearGradient>
+    <clipPath id="frame"><rect width="512" height="512" rx="64"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="512" height="512" fill="url(#sky)"/>
+    <circle cx="410" cy="95" r="42" fill="#fff3a6"/>
+    <g fill="#ffffff">
+      <ellipse cx="95" cy="90" rx="52" ry="20"/><ellipse cx="130" cy="78" rx="34" ry="22"/>
+      <ellipse cx="300" cy="55" rx="40" ry="14"/><ellipse cx="325" cy="46" rx="24" ry="16"/>
+    </g>
+    <!-- 멀리 보이는 섬 -->
+    <path d="M30 330 Q110 270 190 330Z" fill="#7fd6a0"/>
+    <path d="M330 330 Q410 285 500 330Z" fill="#9be3b4"/>
+    <!-- 바다 -->
+    <rect y="320" width="512" height="192" fill="url(#sea)"/>
+    <g fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" opacity=".75">
+      <path d="M30 375 q20 -14 40 0 t40 0"/>
+      <path d="M390 360 q20 -14 40 0 t40 0"/>
+      <path d="M60 440 q20 -14 40 0 t40 0"/>
+      <path d="M360 450 q20 -14 40 0 t40 0"/>
+    </g>
+    <!-- 모래/바위 -->
+    <ellipse cx="256" cy="520" rx="300" ry="60" fill="#ffe3a8"/>
+
+    <!-- 몸 -->
+    <path d="M150 512 Q150 400 256 392 Q362 400 362 512Z" fill="#ff9f43"/>
+    <!-- 가방끈 -->
+    <path d="M196 402 Q190 460 188 512" stroke="#2f9e8f" stroke-width="20" stroke-linecap="round" fill="none"/>
+    <path d="M316 402 Q322 460 324 512" stroke="#2f9e8f" stroke-width="20" stroke-linecap="round" fill="none"/>
+    <!-- 목 -->
+    <rect x="228" y="360" width="56" height="44" rx="22" fill="#f6c9a0"/>
+
+    <!-- 얼굴 -->
+    <circle cx="256" cy="285" r="108" fill="#ffdcb9"/>
+    <!-- 귀 -->
+    <circle cx="150" cy="292" r="20" fill="#ffdcb9"/>
+    <circle cx="362" cy="292" r="20" fill="#ffdcb9"/>
+    <!-- 앞머리 -->
+    <path d="M168 238 Q200 262 232 236 Q256 262 282 236 Q312 262 344 238 Q340 205 256 200 Q172 205 168 238Z" fill="#7a4a2b"/>
+    <!-- 눈 -->
+    <circle cx="214" cy="296" r="13" fill="#3a2418"/>
+    <circle cx="298" cy="296" r="13" fill="#3a2418"/>
+    <circle cx="219" cy="291" r="4.5" fill="#fff"/>
+    <circle cx="303" cy="291" r="4.5" fill="#fff"/>
+    <!-- 볼 -->
+    <circle cx="186" cy="326" r="19" fill="#ff9fae" opacity=".7"/>
+    <circle cx="326" cy="326" r="19" fill="#ff9fae" opacity=".7"/>
+    <!-- 웃는 입 -->
+    <path d="M232 332 Q256 362 280 332 Q256 342 232 332Z" fill="#c4473a" stroke="#c4473a" stroke-width="6" stroke-linejoin="round"/>
+
+    <!-- 사과 모자 -->
+    <path d="M256 138 C236 112 168 114 164 182 C160 232 200 252 256 244 C312 252 352 232 348 182 C344 114 276 112 256 138Z" fill="#ef4b4b"/>
+    <path d="M186 160 Q190 140 212 136" stroke="#ff9a9a" stroke-width="12" stroke-linecap="round" fill="none"/>
+    <!-- 줄기와 잎 -->
+    <path d="M256 140 Q254 110 270 92" stroke="#6b4423" stroke-width="10" stroke-linecap="round" fill="none"/>
+    <path d="M272 100 Q310 70 346 96 Q310 130 272 100Z" fill="#4cc26b"/>
+    <path d="M280 100 Q312 96 336 98" stroke="#2f9e4f" stroke-width="4" stroke-linecap="round" fill="none"/>
+  </g>
+</svg>
