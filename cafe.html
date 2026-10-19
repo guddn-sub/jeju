@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>애월 귤빛 카페</title>
+<style>
+  :root{--orange:#ff8a1f;--orange-d:#e66f00;--orange-l:#fff1e0;--ink:#2b2118}
+  *{box-sizing:border-box}
+  body{margin:0;background:#fff;color:var(--ink);font-family:"Malgun Gothic","Apple SD Gothic Neo",sans-serif;font-size:18px;line-height:1.7}
+  .wrap{max-width:560px;margin:0 auto}
+  header{background:var(--orange);color:#fff;text-align:center;padding:56px 20px 64px;border-radius:0 0 40px 40px}
+  header .em{font-size:3.4rem}
+  header small{display:block;letter-spacing:.2em;font-size:.85rem;opacity:.9}
+  header h1{font-size:2.3rem;margin:6px 0 8px;line-height:1.25}
+  header p{margin:0;font-size:1.1rem}
+  section{padding:40px 20px 8px}
+  h2{font-size:1.6rem;margin:0 0 18px;color:var(--orange-d);display:flex;align-items:center;gap:8px}
+  h2::after{content:"";flex:1;height:3px;background:var(--orange-l);border-radius:3px}
+  .menu{display:flex;gap:16px;align-items:center;background:var(--orange-l);border-radius:22px;padding:18px;margin-bottom:14px}
+  .menu .em{font-size:2.8rem;flex:none;width:68px;height:68px;border-radius:50%;background:#fff;display:flex;align-items:center;justify-content:center}
+  .menu h3{margin:0;font-size:1.3rem}
+  .menu .price{color:var(--orange-d);font-weight:800}
+  .menu p{margin:2px 0 0;font-size:1rem;color:#6b5a4a;line-height:1.5}
+  .visit{background:#fff;border:3px solid var(--orange-l);border-radius:22px;padding:6px 20px}
+  .row{padding:14px 0;border-bottom:1px solid var(--orange-l)}
+  .row:last-child{border:0}
+  .row b{display:block;color:var(--orange-d);font-size:1rem}
+  .row span{font-size:1.15rem}
+  .btn{display:block;margin:20px 0 0;background:var(--orange);color:#fff;text-align:center;text-decoration:none;font-weight:800;font-size:1.2rem;padding:16px;border-radius:999px}
+  .note{font-size:.85rem;color:#9a8a7a;text-align:center;margin-top:10px}
+  footer{text-align:center;color:#9a8a7a;font-size:.9rem;padding:36px 20px 40px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="em">🍊</div>
+    <small>AEWOL · JEJU</small>
+    <h1>애월 귤빛 카페</h1>
+    <p>바다를 바라보며 쉬어가는<br>작은 카페예요</p>
+  </header>
+
+  <section>
+    <h2>대표 메뉴</h2>
+    <div class="menu"><div class="em">🍹</div><div><h3>한라봉 에이드</h3><div class="price">6,500원</div><p>새콤달콤 한라봉이 톡톡 터지는 시원한 한 잔</p></div></div>
+    <div class="menu"><div class="em">☕</div><div><h3>우도 땅콩 라떼</h3><div class="price">6,000원</div><p>고소한 우도 땅콩을 듬뿍 넣은 부드러운 라떼</p></div></div>
+    <div class="menu"><div class="em">🥐</div><div><h3>감귤 스콘</h3><div class="price">4,500원</div><p>제주 감귤 향이 가득한 겉바속촉 스콘</p></div></div>
+  </section>
+
+  <section>
+    <h2>오시는 길</h2>
+    <div class="visit">
+      <div class="row"><b>📍 주소</b><span>제주시 애월읍 ○○로 00<br>(예시 주소)</span></div>
+      <div class="row"><b>🕘 영업시간</b><span>매일 10:00 – 19:00</span></div>
+      <div class="row"><b>🚌 가는 방법</b><span>애월 정류장에서 도보 5분<br>주차 가능</span></div>
+      <div class="row"><b>📞 전화</b><span>064-000-0000</span></div>
+    </div>
+    <a class="btn" href="https://map.kakao.com/?q=애월 카페" target="_blank" rel="noopener">지도에서 찾아보기</a>
+    <p class="note">※ 주소·전화·가격은 예시입니다. 실제 정보로 바꿔 주세요.</p>
+  </section>
+
+  <footer>혼저 옵서예 🍊 어서 오세요</footer>
+</div>
+</body>
+</html>
